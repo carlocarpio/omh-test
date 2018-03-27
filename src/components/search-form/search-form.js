@@ -55,8 +55,6 @@ class SearchForm extends Component {
       setLocation,
       setRecentSearch,
       recentSearch,
-      lat,
-      lng,
     } = this.props
     SearchService
       .getPlace(placeId)
